@@ -1,0 +1,35 @@
+/*公共部分*/
+body{
+	font-family: microsoft yahei;
+}
+/*加入我们主体*/
+.text-top{margin:0 auto;
+	margin-top: 30px;
+	width: 180px;
+	height: 60px;
+	font-size: 26px;
+	text-align: center;
+	line-height:60px; 
+	color: white;
+	background-color: #39a8a9;
+	border-radius: 90px 90px 90px 90px;
+	margin-bottom: 30px;
+}
+.text1{
+	font-size: 22px;
+	margin:10px 0px;
+	text-align: center;
+}
+.text2{
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing:3px;
+}
+/*职位分块*/
+.block-display{
+	width: 100%;
+}
+.box1{
+	width:;
+}
