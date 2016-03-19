@@ -28,14 +28,13 @@ body{
 }
 /*职位分块*/
 .box1{
-	overflow: hidden;
+	
 	width: 30%;
 	height: 400px;
 	margin:3% 5% 3% 0px;
 	float: left;
 	border-radius: 10px;
 }
-.
 .box2{
 	overflow: hidden;
 	float: left;
@@ -53,7 +52,6 @@ body{
 	border-radius: 10px;
 }
 .box4{
-	overflow: hidden;
 	width: 30%;
 	height: 400px;
 	margin:3% 5% 3% 0px;
@@ -75,4 +73,60 @@ body{
 	width: 30%;
 	height: 400px;
 	border-radius: 10px;
+}
+/*figure和figcaption实现动画效果*/
+figure,figcaption{
+	margin: 0;
+	padding: 0;
+}
+figure{
+	position: relative;
+	overflow: hidden;
+}
+figcaption{
+	position: absolute;top: 240px;left: 0px;
+}
+/*盒子1的动画效果*/
+.box1 figcaption div{
+	border: 1px;
+	border-color: #a790d6;
+	background-color: #fff;
+	padding: 10px;
+	transform:translate(0px,200px); 
+	translate:transform 1s ease-in 2s;
+}
+.box1 img{
+	transform:translate(0px,0px);
+	transition:transform 0.5s ease-in;
+}
+.box1:hover figcaption div{
+	transform:translate(0px,-100px); 
+	transition:transform 0.7s ease-in;
+	cursor: pointer;
+}
+.box1:hover img{
+	transform:translate(0px,-120px);
+	transition:all 0.8s ease-in-out;
+	cursor: pointer;
+}
+/*第二个盒子的动画*/
+.box2 figcaption div{
+	background-color: #fff;
+	padding: 10px;
+	transform:translate(0px,200px); 
+	translate:transform 1s ease-in 2s;
+}
+.box1 img{
+	transform:translate(0px,0px);
+	transition:transform 0.5s ease-in;
+}
+.box1:hover figcaption div{
+	transform:rotate(); 
+	transition:transform 0.7s ease-in;
+	cursor: pointer;
+}
+.box1:hover img{
+	transform:translate(0px,-120px);
+	transition:all 0.8s ease-in-out;
+	cursor: pointer;
 }
