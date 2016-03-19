@@ -1,6 +1,7 @@
 body{
   font-family: microsoft yahei !important
   ;
+  background-color: #fff !important;
 }
 /*导航栏*/
 .navbar-default {
@@ -12,8 +13,21 @@ body{
   width: 100%;
   z-index: 10;
 }
+.navbar-brand span.ifox{
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: Verdana;
+  color: #ccc;
+}
+.navbar-brand span.studio{
+  padding-left: 10px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #ccc;
+}
 .navbar-nav {
   float: right;
+  letter-spacing: 2px;
 }
 .navbar-default .navbar-nav > li > a ,
 .navbar-default .navbar-nav > li > a:hover,
@@ -27,13 +41,68 @@ body{
 .navbar-default .navbar-brand:focus{
   color: #fff;
 }
+/*第一个section*/
+section.section-icon{
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+.section-icon .icon-threebox{
+  width: 33%;
+  height: 250px;
+  float: left;
+  text-align: center;  
+}
+.icon-threebox .iconthreebox-words{
+  margin-top: 30px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+/*第二个section*/
+section.section-content{
+  width: 100%;
+  height: 500px;
+}
 /*footer*/
 footer{
   width: 100%;
   height: 400px;
   background-image: url(../images/index/5.jpg);
 }
-.footer-content .threebox{
+footer .content-contactus{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding-top: 40px;
+}
+.content-contactus p{
+  font-family: microsoft yahei;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 6px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.content-three .threebox{
+  margin-top: 60px;
   width: 33%;
-  height: 300px;
+  height: 200px;
+  float: left;
+}
+.threebox .threebox-img{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+.threebox .threebox-words{
+  color: #fff;
+  font-size: 16px;
+  font-family:microsoft yahei ;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.content-footnote,.content-casenumber{
+  text-align: center;
+  color: #ccc;
+  font-family: KaiTi ;
 }
