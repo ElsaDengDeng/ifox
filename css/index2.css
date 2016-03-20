@@ -5,7 +5,7 @@ body{
 }
 /*导航栏*/
 .navbar-default {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-width: 0;
 }
 .navbar{
@@ -44,24 +44,24 @@ body{
 /*第一个section*/
 section.section-icon{
   height: 300px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .section-icon .icon-threebox{
-  height: 250px;
+  height: auto;
   text-align: center;  
 }
 .icon-threebox .iconthreebox-words{
-  margin-top: 30px;
+  padding-top: 30px;
   font-size: 25px;
+  color: #6bb9f0;
   letter-spacing: 5px;
 }
 /*第二个section*/
 section.section-content{
-  width: 100%;
-  height: 700px;
+  height: auto;
 }
-.row{
-  margin-top: 30px;
+.section-content .row{
+  margin-top: 100px;
 }
 .section-content .section-content-img{
   text-align: center;
@@ -69,17 +69,30 @@ section.section-content{
 .section-content-img img{
   border-radius: 20px;
 }
+.section-content-words{
+  padding: 30px;
+}
+.section-content-words .words-title{
+  font-size: 28px;
+  color: #95a5a6;
+}
+.section-content-words .words-p{
+  font-size: 18px;
+  color: #95a5a6;
+  letter-spacing: 4px;
+}
 /*footer*/
 footer{
   width: 100%;
-  height: 400px;
-  background-image: url(../images/index/5.jpg);
+  height:350px;
+  background-image: url(../images/index/section-2.png) ;
+  margin-top: 80px;
 }
 footer .content-contactus{
   width: 100%;
   height: 80px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .content-contactus p{
   font-family: microsoft yahei;
@@ -90,19 +103,19 @@ footer .content-contactus{
   line-height: 40px;
 }
 .content-three .threebox{
-  margin-top: 60px;
+  margin-top: 40px;
   width: 33%;
-  height: 200px;
+  height: 180px;
   float: left;
 }
 .threebox .threebox-img{
   width: 100%;
-  height: 160px;
+  height: 140px;
   text-align: center;
 }
 .threebox .threebox-img img{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 @media (max-width:768px) {
   .threebox .threebox-img{
