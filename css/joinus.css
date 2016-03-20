@@ -99,7 +99,7 @@ figure{
 }
 .box-1:hover figcaption li{
 	transform:translate(0px,-290px);
-	transition:transform 0.8s ease;
+	transition:transform 0.8s ease 0.4s;
 }
 .box-1 figcaption li{
 	position: relative;
@@ -152,7 +152,7 @@ figure{
 }
 .box-2:hover figcaption li{
 	transform:translate(0px,-210px);
-	transition:transform 0.7s ease-out 0.3s;
+	transition:transform 0.7s ease-out 0.5s;
 }
 .box-2 figcaption:nth-child(1){
 	transotion-delay:0.6s;
@@ -177,7 +177,8 @@ figure{
 }
 .box-3:hover figcaption li{
 	transform:translate(0px,300px);
-	transition:transform 0.8s ease;
+	transition:transform 0.8s ease ;
+	transition:transform 0.8s ease 0.4s;
 }
 .box-3 figcaption li{
 	position: relative;
