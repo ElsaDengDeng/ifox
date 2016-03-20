@@ -1,80 +1,7 @@
 body{
   font-family: microsoft yahei;
 }
-/*导航栏*/
-nav {
-  position: absolute;
-  /*使导航栏可以漂浮在图片之上*/
-  z-index: 10;
-  border: 0;
-  padding: 5px;
-  background-color: rgba(0,0,0,.5);
-  font-size: 16px;
-  width: 100%;
-}
-.nav-pills > li.active > a, 
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus
-.nav-pills > li.active > a:visited {
-  background-color: #ff8c3c;
-  color: #fff;
-  border-radius: 15px;
-}
-.nav-pills li {
-  padding-left: 12px;
-}
-.nav-pills li a {
-  color: #fff;
-  line-height: 30px;
-}
-.nav> li a:hover,
-.nav> li a:visited {
-  color: #fff;
-  background-color: #ff8c3c;
-  border-radius: 15px;
-}
-@media (min-width:1024px), (min-width:993px)and(max-width:1023px) {
-  header .header-content img {
-    width: 100%;
-    height: 100%;
-  }
-  nav{
-    width: 100%;
-  }
-}
-@media (max-width: 992px) {
-  header .header-content img {
-    width: 1030px;
-    height: auto;
-  }
-  header .header-content > div {
-    width: 650px;
-    left: 0;
-  }
-  nav{
-    width: 1030px;
-  }
-}
-header .header-content {
-  position: relative;
-  /*图片要设置为相对定位*/
-}
-header .header-content > div {
-  position: absolute;
-  /*使文字可以漂浮在图片之上*/
-  left: 10%;
-  top: 35%;
-}
-header .header-content .header-word{
-  width: 800px;
-  color: #fff;
-  letter-spacing: 4px;
-}
-header .header-content > div span {
-  font-size: 62px;
-  color: #fff;
-  letter-spacing: 10px;
-}
+
 /*团队特色*/
 .container-title{
     width: 100%;
@@ -107,156 +34,60 @@ header .header-content > div span {
   font-weight: bold;
   margin-bottom: 40px;
 }
-/*成员介绍*/
-.container-detailed{
-  height: 400px;
-  text-align: center;
+
+
+
+/*
+HTML {
+  OVERFLOW: hidden;font-size:12px
 }
-.container-detailed-word h3{
-  color: #337AB7;
-  letter-spacing: 5px; 
+BODY {
+  PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #121212; HEIGHT: 100%; COLOR: #fff; PADDING-TOP: 0px
+}*/
+#center {
+  Z-INDEX: 2; POSITION: absolute; TOP: 100%; LEFT: 50%
 }
-.container-display-detailed{
-  border: 2px solid #eee;
-  box-shadow: 2px 4px 5px #ccc;
-  text-align: left;
+#slider {
+  Z-INDEX: 1; BORDER-BOTTOM: #000 20px solid; POSITION: absolute; BORDER-LEFT: #000 20px solid; WIDTH: 820px; BACKGROUND: #000; HEIGHT: 403px; OVERFLOW: hidden; BORDER-TOP: #000 20px solid; TOP: -186px; BORDER-RIGHT: #000 20px solid; LEFT: -430px
 }
-/*女生和男生背景色*/
-.boy{
-   background-color:#337AB7;
+#slider .slide {
+  Z-INDEX: 10; POSITION: absolute; BORDER-LEFT: #000 1px solid; WIDTH: 500px; BACKGROUND: #000; HEIGHT: 333px; OVERFLOW: hidden; TOP: 43px; CURSOR: default; LEFT: 22px;text-align:left;
 }
-.girl{
-   background-color:#ff8c3c;
+#slider .title {
+  COLOR: #f80; FONT-SIZE: 1.2em; FONT-WEIGHT: bold; MARGIN-RIGHT: 1.5em; TEXT-DECORATION: none
 }
-/*设置鼠标移入显示的盒子的样式*/
-/*设置一排有两个人的样式*/
-.row-display2 .container-display-detailed{
-  padding: 20px;
-  width: 80%;
+#slider .text {
+  POSITION: absolute; TEXT-ALIGN: justify; WIDTH: 470px; DISPLAY: none; FONT-FAMILY: verdana, arial, Helvetica, sans-serif; COLOR: #fff; FONT-SIZE: 0.9em; TOP: 100%; LEFT: 10px
 }
-.row-display2 .img-erwei-posi{
-  margin-right: 80px;
+#slider .diapo {
+  POSITION: absolute; FILTER: alpha(opacity=100); VISIBILITY: visible; opacity: 1
 }
-/*设置一排有三个人的样式*/
-.row-display3 .container-display-detailed{
-  padding: 10px;
-  width: 100%;
+#apDiv1 {
+  Z-INDEX: 1; POSITION: absolute; BACKGROUND-COLOR: #000000; WIDTH: 820px; HEIGHT: 30px; OVERFLOW: hidden; TOP: 0px; LEFT: 0px
 }
-.row-display3 .img-erwei-posi{
-  margin-right:40px;
+#apDiv2 {
+  Z-INDEX: 3; POSITION: absolute; WIDTH: 860px; HEIGHT: 35px; OVERFLOW: hidden; TOP: 216px; LEFT: -429px
 }
-@media (max-width:992px){
-  /*为一排三个人设置适应窗口*/
-  .row-display3{
-    width: 960px;
-  }
-  .row-display3 .container-detailed{
-    float: left;
-    width: 320px;
-    margin: 0 auto;
-  }
-  /*为一排两个人设置适应窗口*/
-  .row-display2{
-    width: 960px;
-  }
-  .row-display2 .container-detailed{
-    width: 480px;
-    float: left;
-    margin: 0 auto;
-  }
+.pagenext {
+  POSITION: relative; WIDTH: 820px; HEIGHT: 37px
 }
-.display-word{
-  text-align: right;
-  color: #fff;
+A.pn:link {
+  Z-INDEX: 4; POSITION: absolute; WIDTH: 47px; FONT: 12px "宋体"; COLOR: #666; TOP: 15px; RIGHT: 33px; TEXT-DECORATION: none
 }
-.hover-show1{/*container-display-detailed*/
-  position: absolute;
-  height: 300px;
-  opacity: 0;
-  -moz-transition:all 1s linear .3s;
-  -webkit-transition:all 1s linear .3s;
-  -o-transition:all 1s linear .3s;
-  -ms-transition:all 1s linear .3s;
-  transition:all 1s linear .3s;
-  -moz-transform:translateX(-100px);
-  -webkit-transform:translateX(-100px);
-  -ms-transform:translateX(-100px);
-  -o-transform:translateX(-100px);
-  transform:translateX(-100px);
+A.pn:visited {
+  Z-INDEX: 4; POSITION: absolute; WIDTH: 47px; FONT: 12px "宋体"; COLOR: #666; TOP: 15px; RIGHT: 33px; TEXT-DECORATION: none
 }
-.hover-hidden1{
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  -moz-transition:all 1s ease-out .3s;
-  -webkit-transition:all 1s ease-out .3s;
-  -o-transition:all 1s ease-out .3s;
-  -ms-transition:all 1s ease-out .3s;
-  transition:all 1s ease-out .3s;
+A.pn:hover {
+  COLOR: #fff
 }
-.container-detailed:hover .hover-hidden1{
- -moz-transform:rotate(90deg) scale(0.5) ;
- -ms-transform:rotate(90deg) scale(0.5) ;
-  -webkit-transform:rotate(90deg) scale(0.5);
-  -o-transform:rotate(90deg) scale(0.5);
-  transform:rotate(90deg) scale(0.5);
-  opacity: 0;
+A.pn:active {
+  COLOR: #fff
 }
-.container-detailed:hover .hover-show1{
-  -moz-transform:translateX(0px);
-  -ms-transform:translateX(0px);
-  -webkit-transform:translateX(0px);
-  -o-transform:translateX(0px);
-  transform:translateX(0px);
-  opacity: 1;
-}
-/*脚部*/
-footer {
-  width: 100%;
-  height: 200px;
-  margin-top: 100px;
-  background: #ff8c3c;
-}
-.footer-content {
-  width: 90%;
-  height: 200px;
-  margin: 0 auto;
-}
-.footer-module {
-  float: left;
-  width: 35%;
-  height: 100%;
-  padding-top: 50px;
-}
-.footer-module span {
-  font-size: 16px;
-  display: block;
-  color: #fff;
-  padding: 0;
-}
-.footer-link {
-  float: left;
-  width: 35%;
-  height: 100%;
-  padding-top: 50px;
- padding-left: 100px;
-}
-.footer-link a,
-.footer-link span,.footer-QRcode p{
-  display: block;
-  font-size: 16px;
-  color: #fff;
-  padding: 0;
-}
-.footer-QRcode{
-  width: 30%;
-  height: 100%;
-  text-align: center;
-  float: left;
-  padding-top: 50px;
-}
-@media (max-width: 992px){
-  footer,.footer-content{
-    width: 1030px;
-  }
-}
+
+
+/*定义文字样式*/
+A {FONT-SIZE: 12px; COLOR: #000;}
+A:link {COLOR: #fff; TEXT-DECORATION: none;}
+A:visited {COLOR: #fff; TEXT-DECORATION: none;}
+A:hover {COLOR: #fff; TEXT-DECORATION:underline;}
+A:active {COLOR: #fff; TEXT-DECORATION: none;}
