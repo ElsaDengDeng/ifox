@@ -43,14 +43,11 @@ body{
 }
 /*第一个section*/
 section.section-icon{
-  width: 100%;
   height: 300px;
   margin-top: 50px;
 }
 .section-icon .icon-threebox{
-  width: 33%;
   height: 250px;
-  float: left;
   text-align: center;  
 }
 .icon-threebox .iconthreebox-words{
@@ -61,7 +58,16 @@ section.section-icon{
 /*第二个section*/
 section.section-content{
   width: 100%;
-  height: 500px;
+  height: 700px;
+}
+.row{
+  margin-top: 30px;
+}
+.section-content .section-content-img{
+  text-align: center;
+}
+.section-content-img img{
+  border-radius: 20px;
 }
 /*footer*/
 footer{
@@ -91,15 +97,27 @@ footer .content-contactus{
 }
 .threebox .threebox-img{
   width: 100%;
-  height: 120px;
+  height: 160px;
   text-align: center;
+}
+.threebox .threebox-img img{
+  width: 150px;
+  height: 150px;
+}
+@media (max-width:768px) {
+  .threebox .threebox-img{
+    height: 120px;
+  }
+  .threebox .threebox-img img{
+  width: 100px;
+  height: 100px;
+  }
 }
 .threebox .threebox-words{
   color: #fff;
   font-size: 16px;
   font-family:microsoft yahei ;
   text-align: center;
-  letter-spacing: 3px;
 }
 .content-footnote,.content-casenumber{
   text-align: center;
