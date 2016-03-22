@@ -44,7 +44,7 @@ HTML {
 BODY {
   PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #121212; HEIGHT: 100%; COLOR: #fff; PADDING-TOP: 0px
 }*/
-#center {
+.team {
   Z-INDEX: 2; POSITION: absolute; TOP: 100%; LEFT: 50%
 }
 #slider {
