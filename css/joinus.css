@@ -176,7 +176,7 @@ figure{
 	translate:transform 2s ease-in;
 }
 .box-3:hover figcaption li{
-	transform:translate(0px,300px);
+	transform:translate(0px,270px);
 	transition:transform 0.8s ease ;
 	transition:transform 0.8s ease 0.4s;
 }
