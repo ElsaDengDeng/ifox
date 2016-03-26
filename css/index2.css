@@ -49,7 +49,7 @@ body{
 }
 @font-face{
   font-family: manjiro;
-  src:url('../manjiro.ttf');
+  src:url('../fonts/manjiro.ttf');
 }
 .slider-wrapper .slider-words p{
   font-family: manjiro;
@@ -89,8 +89,8 @@ body{
   }
   100%{
     opacity: 1;
-    -webkit-transform: translate(0, -100px);
-    transform: translate(0, -100px);
+    -webkit-transform: translate(0, 100px);
+    transform: translate(0, 100px);
   }
 }
 .delay_1{
@@ -117,34 +117,24 @@ section.section-icon{
 }
 /*第二个section*/
 section.section-content{
+  width: 100%;
   height: auto;
 }
-.section-content .row{
-  margin-top: 100px;
-}
-.section-content .section-content-img{
+section.section-content .section-WeChat{
   text-align: center;
+  margin-top: 70px;
 }
-.section-content-img img{
-  border-radius: 20px;
-}
-.section-content-words{
-  padding: 30px;
-}
-.section-content-words .words-title{
-  font-size: 28px;
-  color: #95a5a6;
-}
-.section-content-words .words-p{
-  font-size: 18px;
-  color: #95a5a6;
-  letter-spacing: 4px;
+section.section-content .section-WebsitePlan,
+section.section-content .section-WebsiteDesign{
+  text-align: center;
+  margin-top: 70px;
 }
 /*footer*/
 footer{
   width: 100%;
   height:auto;
-  background-image: url(../images/index/section-2.png) ;
+  /*background-image: url(../images/index/4.jpg);*/
+  background-color: #34383B;
   margin-top: 80px;
 }
 footer .content-contactus{
@@ -156,13 +146,11 @@ footer .content-contactus{
 .content-contactus p{
   font-family: microsoft yahei;
   font-size: 25px;
-  color: #fff;
-  letter-spacing: 6px;
-  font-weight: 600;
+  color: #95a5a6;
   line-height: 40px;
 }
 .content-three .threebox{
-  margin-top: 40px;
+  margin-top: 20px;
   width: 33%;
   height: 180px;
   float: left;
