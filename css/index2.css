@@ -41,9 +41,68 @@ body{
 .navbar-default .navbar-brand:focus{
   color: #fff;
 }
+.slider-wrapper .slider-words{
+  position: absolute;
+  top:40%;
+  left: 10%;
+  z-index: 10;
+}
+@font-face{
+  font-family: manjiro;
+  src:url('../manjiro.ttf');
+}
+.slider-wrapper .slider-words p{
+  font-family: manjiro;
+  display: inline-block;
+  color: #fff;
+  font-size: 40px;
+}
+.animated{
+  animation-duration:1s;
+  -webkit-animation-duration:1s;
+  animation-fill-mode:both;
+  -webkit-animation-fill-mode:both;
+}
+.fadeIn{
+  animation-name:fadeIn;
+  -webkit-animation-name:fadeIn;
+}
+.fadeUp{
+  animation-name:fadeUp;
+  -webkit-animation-name:fadeUp;
+}
+@keyframes fadeIn{
+  0%{ opacity: 0;
+    -webkit-transform: translate(0, 200px);
+    transform: translate(0, 200px);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeUp{
+  0%{ opacity: 0;
+    -webkit-transform: translate(0, -200px);
+    transform: translate(0, -200px);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translate(0, -100px);
+    transform: translate(0, -100px);
+  }
+}
+.delay_1{
+  animation-delay:1s;
+  -webkit-animation-delay:1s;
+}
+.delay_2{
+  animation-delay:2s;
+  -webkit-animation-delay:2s;
+}
 /*第一个section*/
 section.section-icon{
-  height: 300px;
   margin-top: 60px;
 }
 .section-icon .icon-threebox{
@@ -53,7 +112,7 @@ section.section-icon{
 .icon-threebox .iconthreebox-words{
   padding-top: 30px;
   font-size: 25px;
-  color: #6bb9f0;
+  color: #95a5a6;
   letter-spacing: 5px;
 }
 /*第二个section*/
@@ -84,7 +143,7 @@ section.section-content{
 /*footer*/
 footer{
   width: 100%;
-  height:350px;
+  height:auto;
   background-image: url(../images/index/section-2.png) ;
   margin-top: 80px;
 }
@@ -126,10 +185,11 @@ footer .content-contactus{
   height: 100px;
   }
 }
+
 .threebox .threebox-words{
   color: #fff;
   font-size: 16px;
-  font-family:microsoft yahei ;
+  font-family:microsoft yahei;
   text-align: center;
 }
 .content-footnote,.content-casenumber{

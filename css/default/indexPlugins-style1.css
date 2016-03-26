@@ -31,10 +31,9 @@ Supports Thumbs: true
 	text-align: center;
 	padding: 20px 0;
 	/*让下面那四个小圆点显示在图片上*/
-	position: absolute;
-	top:60%;
-	left: 45%;
+	position: relative;
 	z-index: 10;
+
 }
 .theme-default .nivo-controlNav a {
 	display:inline-block;
