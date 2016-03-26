@@ -157,7 +157,7 @@ header .header-content > div {
 	text-align: center;
 	line-height:60px; 
 	color: white;
-	background-color: #ff8c3c;
+	background-color: #39a8a9;
 	border-radius: 90px 90px 90px 90px;
 	margin-bottom: 30px;
 }
@@ -170,7 +170,7 @@ header .header-content > div {
 	text-align: center;
 	line-height:60px; 
 	color: white;
-	background-color: #ff8c3c;
+	background-color: #39a8a9;
 	border-radius: 90px 90px 90px 90px;
 	margin-bottom: 100px;
 }
@@ -183,7 +183,7 @@ header .header-content > div {
 	text-align: center;
 	line-height:60px; 
 	color: white;
-	background-color: #ff8c3c;
+	background-color: #39a8a9;
 	border-radius: 90px 90px 90px 90px;
 	margin-bottom: 40px;
 }
@@ -239,7 +239,7 @@ header .header-content > div {
 .small-ico{
 	float: left;
 	margin-right: 40px;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 }
 .question-text{
 	font-size: 17px;

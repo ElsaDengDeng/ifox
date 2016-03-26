@@ -199,6 +199,10 @@ figure{
 	transition:all 0.8s ease-in-out;
 	cursor: pointer;
 }
-/*第四个盒子的动画*/
+@media only screen and(min-width:1230px){
+	.all-page{
+		width: 1230px;
+	}
+}
 
 
