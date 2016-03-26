@@ -35,8 +35,6 @@ body{
   margin-bottom: 40px;
 }
 
-
-
 /*
 HTML {
   OVERFLOW: hidden;font-size:12px
@@ -44,33 +42,37 @@ HTML {
 BODY {
   PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #121212; HEIGHT: 100%; COLOR: #fff; PADDING-TOP: 0px
 }*/
+
 .team {
-  Z-INDEX: 2; POSITION: absolute; 
-  // TOP: 110%;
-   LEFT: 50%
+  position: relative;;
+  Z-INDEX: 2;
+ /*POSITION:absolute; */
+  /*TOP: 110%;*/
+   LEFT: 50%;
 }
 #slider {
   Z-INDEX: 1; 
-  BORDER-BOTTOM: #fff 40px solid; 
-  POSITION: absolute; 
-  // BORDER-LEFT: #000 20px solid; 
+  /*BORDER-BOTTOM: #fff 40px solid; */
+  POSITION: relative; 
+  /* BORDER-LEFT: #000 20px solid; */
   width: 870px;
-  // WIDTH: 820px; 
-  // BACKGROUND: #000;
+/*WIDTH: 820px; */
+  /*BACKGROUND: #000;*/
   height: 450px; 
-  // height: 403px; 
+  /*height: 403px; */
   OVERFLOW: hidden; 
-  // BORDER-TOP: #000 20px solid; 
-  // TOP: -186px; 
-  // BORDER-RIGHT: #000 20px solid; 
+   /*BORDER-TOP: #000 20px solid; */
+   /*TOP: -186px; */
+  /*BORDER-RIGHT: #000 20px solid; */
 
   LEFT: -430px
 }
 #slider .slide {
-  Z-INDEX: 10; POSITION: absolute; 
-  // BORDER-LEFT: #000 1px solid; 
+  Z-INDEX: 10; 
+  POSITION: absolute; 
+  /*BORDER-LEFT: #000 1px solid; */
   width: 530px;
-  // WIDTH: 500px; 
+   /*WIDTH: 500px; */
   BACKGROUND: #000; 
   HEIGHT: 354px; OVERFLOW: hidden; 
   TOP: 43px; CURSOR: default; 
@@ -81,33 +83,39 @@ BODY {
   MARGIN-RIGHT: 1.5em; 
   TEXT-DECORATION: none
 }
-// #slider .text {
-//   POSITION: absolute; 
-//   TEXT-ALIGN: justify; WIDTH: 470px; 
-//   DISPLAY: none; 
-//   FONT-FAMILY: verdana, arial, Helvetica, sans-serif; 
-//   COLOR: #fff; FONT-SIZE: 0.9em; TOP: 100%; 
-//   LEFT: 10px
-// }
+/* #slider .text {
+   POSITION: absolute; 
+   TEXT-ALIGN: justify; WIDTH: 470px; 
+   DISPLAY: none; 
+   FONT-FAMILY: verdana, arial, Helvetica, sans-serif; 
+   COLOR: #fff; FONT-SIZE: 0.9em; TOP: 100%; 
+   LEFT: 10px
+ }*/
 #slider .diapo {
-  POSITION: absolute; FILTER: 
+  POSITION: absolute; 
+  FILTER: 
   alpha(opacity=100); VISIBILITY: visible; 
   opacity: 1
 }
 #apDiv1 {
-  Z-INDEX: 1; POSITION: absolute; 
+  Z-INDEX: 1; 
+  POSITION: absolute; 
   BACKGROUND-COLOR: #000000; WIDTH: 820px; 
   HEIGHT: 30px; OVERFLOW: hidden; TOP: 0px; 
   LEFT: 0px
 }
 #apDiv2 {
-  Z-INDEX: 3; POSITION: absolute; WIDTH: 860px; HEIGHT: 35px; OVERFLOW: hidden; TOP: 216px; LEFT: -429px
+  Z-INDEX: 3; 
+  POSITION: absolute; 
+  WIDTH: 860px; HEIGHT: 35px; OVERFLOW: hidden; TOP: 216px; LEFT: -429px
 }
 .pagenext {
   POSITION: relative; WIDTH: 820px; HEIGHT: 37px
 }
 A.pn:link {
-  Z-INDEX: 4; POSITION: absolute; WIDTH: 47px; FONT: 12px "宋体"; COLOR: #666; TOP: 15px; RIGHT: 33px; TEXT-DECORATION: none
+  Z-INDEX: 4; 
+  POSITION: absolute; 
+  WIDTH: 47px; FONT: 12px "宋体"; COLOR: #666; TOP: 15px; RIGHT: 33px; TEXT-DECORATION: none
 }
 A.pn:visited {
   Z-INDEX: 4; POSITION: absolute; WIDTH: 47px; FONT: 12px "宋体"; COLOR: #666; TOP: 15px; RIGHT: 33px; TEXT-DECORATION: none
