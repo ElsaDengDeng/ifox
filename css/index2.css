@@ -41,7 +41,7 @@ body{
 .navbar-default .navbar-brand:focus{
   color: #fff;
 }
-.slider-wrapper .slider-words{
+/*.slider-wrapper .slider-words{
   position: absolute;
   top:40%;
   left: 10%;
@@ -100,7 +100,7 @@ body{
 .delay_2{
   animation-delay:2s;
   -webkit-animation-delay:2s;
-}
+}*/
 /*第一个section*/
 section.section-icon{
   margin-top: 60px;
@@ -133,6 +133,7 @@ section.section-content .section-WebsiteDesign{
 footer{
   width: 100%;
   height:auto;
+  text-align: center;
   /*background-image: url(../images/index/4.jpg);*/
   background-color: #34383B;
   margin-top: 80px;
