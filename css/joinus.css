@@ -1,10 +1,11 @@
-/*公共部分*/
+公共部分*/
 body{
 	font-family: microsoft yahei;
 }
 li{font-size: 16px;
 letter-spacing: 2px;
 }
+
 /*加入我们主体*/
 .text-top{margin:0 auto;
 	margin-top: 30px;
@@ -199,10 +200,23 @@ figure{
 	transition:all 0.8s ease-in-out;
 	cursor: pointer;
 }
-@media only screen and(min-width:1230px){
-	.all-page{
-		width: 1230px;
-	}
+
+@media only screen and(max-width:1300px){
+	body{width: 1300px;}
+	.container-1{width: 1180px;}
 }
 
-
+/*@media (min-width: 768px) {
+.container {
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+.container {
+    width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}*/
