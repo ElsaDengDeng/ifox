@@ -200,23 +200,28 @@ figure{
 	transition:all 0.8s ease-in-out;
 	cursor: pointer;
 }
-
+.container-1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 @media only screen and(max-width:1300px){
 	body{width: 1300px;}
 	.container-1{width: 1180px;}
 }
 
-/*@media (min-width: 768px) {
-.container {
+@media (min-width: 768px) {
+.container-1 {
     width: 750px;
 }
 }
 @media (min-width: 992px) {
-.container {
+.container-1 {
     width: 970px;
 }
 }
 @media (min-width: 1200px) {
-.container {
+.container-1 {
     width: 1170px;
-}*/
+}
