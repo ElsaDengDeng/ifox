@@ -43,9 +43,14 @@ body{
   color: #fff;
 }
 @media (max-width: 768px) {
+  /*主页大图*/
   .slider-wrapper .nivoSlider{
     width: 750px;
     height: auto;
+  }
+  /*其他页面的header*/
+  .header-img{
+    width: 750px;
   }
 }
 /*footer*/
