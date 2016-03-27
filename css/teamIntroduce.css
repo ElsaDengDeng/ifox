@@ -1,7 +1,119 @@
 body{
-  font-family: microsoft yahei;
+  font-family: microsoft yahei !important
+  ;
+  background-color: #fff !important;
+  font-size: 16px;
 }
 
+/*导航栏*/
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-width: 0;
+}
+.navbar{
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.navbar-brand span.ifox{
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: Verdana;
+  color: #ccc;
+}
+.navbar-brand span.studio{
+  padding-left: 10px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #ccc;
+}
+.navbar-nav {
+  float: right;
+  letter-spacing: 2px;
+}
+.navbar-default .navbar-nav > li > a ,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus{
+  color: #fff;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:focus{
+  color: #fff;
+}
+@media (max-width: 992px) {
+  /*主页大图*/
+  .slider-wrapper .nivoSlider{
+    width: 880px;
+    height: auto;
+  }
+  /*其他页面的header*/
+  .header-img{
+    width: 880px;
+  }
+}
+/*footer*/
+footer{
+  width: 100%;
+  height:350px;
+  text-align: center;
+  background-color: #34383B;
+  margin-top: 80px;
+}
+footer .content-contactus{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+.content-contactus p{
+  font-family: microsoft yahei;
+  font-size: 25px;
+  color: #95a5a6;
+}
+.content-three .threebox{
+  margin-top: 20px;
+  width: 33%;
+  height: 180px;
+  float: left;
+}
+.threebox .threebox-img{
+  width: 100%;
+  height: 140px;
+  text-align: center;
+}
+.threebox .threebox-img img{
+  width: 130px;
+  height: 130px;
+}
+
+.threebox .threebox-words{
+  color: #fff;
+  font-size: 16px;
+  font-family:microsoft yahei;
+  text-align: center;
+}
+.content-footnote,.content-casenumber{
+  text-align: center;
+  color: #ccc;
+  font-family: KaiTi ;
+}
+/*footer自适应*/
+@media (max-width:992px) {
+  footer{
+    width: 880px;
+    height: auto;
+  }
+  .threebox .threebox-img{
+    height: 120px;
+  }
+  .threebox .threebox-img img{
+  width: 100px;
+  height: 100px;
+  }
+}
 /*团队特色*/
 .container-title{
     width: 100%;
@@ -18,10 +130,11 @@ body{
 }
 @media(max-width: 992px){
   .container-content1{
-    width: 880px;
+    width: 860px;
     margin: 0;
   }
-  .container-content1 .content1-word{
+
+.container-content1 .content1-word{
     width: 440px;
     float: left;
     margin: 0 auto;
@@ -46,10 +159,9 @@ BODY {
 .team {
   position: relative;
   Z-INDEX: 2;
-  width:700px;
  /*POSITION:absolute; */
   /*TOP: 110%;*/
- left: 50%;
+  left:50%;
 }
 #slider {
   Z-INDEX: 1; 
@@ -66,7 +178,7 @@ BODY {
    /*TOP: -186px; */
   /*BORDER-RIGHT: #000 20px solid; */
 
-  LEFT: -430px
+  LEFT: -430px;
 }
 #slider .slide {
   Z-INDEX: 10; 
