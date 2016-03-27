@@ -2,6 +2,7 @@ body{
   font-family: microsoft yahei !important
   ;
   background-color: #fff !important;
+  font-size: 16px;
 }
 /*导航栏*/
 .navbar-default {
@@ -44,7 +45,8 @@ body{
 /*footer*/
 footer{
   width: 100%;
-  height:auto;
+  height:350px;
+  text-align: center;
   background-color: #34383B;
   margin-top: 80px;
 }
@@ -58,7 +60,6 @@ footer .content-contactus{
   font-family: microsoft yahei;
   font-size: 25px;
   color: #95a5a6;
-  line-height: 40px;
 }
 .content-three .threebox{
   margin-top: 20px;
@@ -75,15 +76,6 @@ footer .content-contactus{
   width: 130px;
   height: 130px;
 }
-@media (max-width:768px) {
-  .threebox .threebox-img{
-    height: 120px;
-  }
-  .threebox .threebox-img img{
-  width: 100px;
-  height: 100px;
-  }
-}
 
 .threebox .threebox-words{
   color: #fff;
@@ -95,4 +87,18 @@ footer .content-contactus{
   text-align: center;
   color: #ccc;
   font-family: KaiTi ;
+}
+/*footer自适应*/
+@media (max-width:768px) {
+  footer{
+    width: 750px;
+    height: auto;
+  }
+  .threebox .threebox-img{
+    height: 120px;
+  }
+  .threebox .threebox-img img{
+  width: 100px;
+  height: 100px;
+  }
 }
