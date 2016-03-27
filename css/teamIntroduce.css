@@ -44,11 +44,12 @@ BODY {
 }*/
 
 .team {
-  position: relative;;
+  position: relative;
   Z-INDEX: 2;
+  width:700px;
  /*POSITION:absolute; */
   /*TOP: 110%;*/
-   LEFT: 50%;
+ left: 50%;
 }
 #slider {
   Z-INDEX: 1; 
