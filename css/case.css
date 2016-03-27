@@ -71,17 +71,17 @@
   width: 150px;
 }
 /*设置内容的图片和文字适应屏幕宽度，不往下掉*/
-@media (max-width: 980px){
+@media (max-width: 768px){
   .row{
-    width: 900px;
+    width: 750px;
   }
   .container-pic{
     float: left;
-    width: 350px;
+    width: 300px;
   }
   .container-w-b{
     float: left;
-    width: 550px;
+    width: 450px;
   }
 }
 .container .more{
