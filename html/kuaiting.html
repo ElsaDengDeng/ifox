@@ -13,14 +13,27 @@
 </head>
 <body>
 	<header>
-		<nav>
-			<ul class="nav nav-pills">
-				<li><a href="../index1.html">首页</a></li>
-				<li><a href="service.html">服务</a></li>
-				<li><a href="#">团队介绍</a></li>
-			</ul>
-		</nav>
-		<div class="header-content">
+		<nav class="navbar navbar-default" role="navigation">
+		   <div class="navbar-header">
+		       <button type="button" class="navbar-toggle" data-toggle="collapse" 
+		         data-target="#navul">
+			        <span class="sr-only">切换导航</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		       </button>
+		      <a class="navbar-brand" href="#"><span class="ifox">IFOX</span><span class="studio">工作室</span></a>
+		   </div>
+		   <div class="collapse navbar-collapse" id="navul">
+		      <ul class="nav navbar-nav">
+		        <li><a href="../index1.html">首页</a></li>
+		        <li><a href="service.html">服务</a></li>
+		        <li><a href="#">案例</a></li>
+		        <li><a href="teamIntroduce.html">关于</a></li>
+		        <li><a href="joinus.html">加入我们</a></li>
+		      </ul>
+		   </div>
+		</nav>		<div class="header-content">
 			<img src="../images/kt_banner.jpg" alt="" width="100%" height="100%">
 			<div class="header-word">
 				<span>快停</span>
@@ -58,25 +71,40 @@
 			<a href="../index1.html"><span><input class="return_button" type="button" value="返&nbsp;&nbsp;回&nbsp;&nbsp;首&nbsp;&nbsp;页"></input></span></a>
 	</div>
 	<footer>
-		<div class = "footer-content">
-			<div class="footer-module">
-				<span>联系我们：</span>
-				<span>邮编：610101</span>
-				<span>联系电话：18215686783</span>
-				<span>地址:成都市龙泉驿区成龙大道二段1819号</span>
+		<div class="content-contactus">
+			<p>联系我们&nbsp;|&nbsp;Contact us</p>
+		</div>
+		<div class="content-three">
+			<div class="threebox">
+				<div class="threebox-img">
+					<img src="../images/index/footer-message.png" alt="">
+				</div>
+				<div class="threebox-words">
+					<p>电话：13313331333</p>
+				</div>
 			</div>
-			<div class="footer-link">
-				<span>友情链接：</span>
-				<a href="http://www.univs.cn/" target="_new">中国大学生在线</a>
-	            <a href="http://zjc.sicnu.edu.cn/zjc-career-websys-2009/zjc-career/sd_zjc_career.aspx" target="_new">川师就业信息网</a>
-	            <a href="http://202.115.194.53:8000/" target="_new">川师教务处</a>
-	            <a href="http://cn.club.vmall.com/forumall-1.html" target="_new">川师花粉</a>
-	            <a href="https://github.com/" target="_new">GitHub</a>
+			<div class="threebox">
+				<div class="threebox-img">
+					<img src="../images/index/footer-tel.png" alt="">
+				</div>
+				<div class="threebox-words">
+					<p>邮箱：1331333@163.com</p>
+				</div>
 			</div>
-			<div class="footer-QRcode">
-				<p>扫一扫关注我们</p>
-				<img src="../images/erweima.png" alt="" width="100px" height="100px">
+			<div class="threebox">
+				<div class="threebox-img">
+					<img src="../images/index/footer-address.png"  alt="">
+				</div>
+				<div class="threebox-words">
+					<p>地址：成都市成龙大道1018号</p>
+				</div>
 			</div>
+		</div>
+		<div class="content-footnote">
+			<p>IFOX工作室</p>
+		</div>
+		<div class="content-casenumber">
+			<P>这里是备案号</P>
 		</div>
 	</footer>
 	<script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
