@@ -200,7 +200,13 @@ figure{
 	transition:all 0.8s ease-in-out;
 	cursor: pointer;
 }
-.container-1 {
+@media(max-width: 1100px){
+	.container{
+		width: 1100px;
+		height: auto;
+	}
+}
+/*.container-1 {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -224,4 +230,4 @@ figure{
 @media (min-width: 1200px) {
 .container-1 {
     width: 1170px;
-}
+}*/
