@@ -42,6 +42,12 @@ body{
 .navbar-default .navbar-brand:focus{
   color: #fff;
 }
+@media (max-width: 768px) {
+  .slider-wrapper .nivoSlider{
+    width: 750px;
+    height: auto;
+  }
+}
 /*footer*/
 footer{
   width: 100%;
