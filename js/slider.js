@@ -1,5 +1,5 @@
 /* ==== slider nameSpace ==== */
-var slider = function() {
+var huadong = function() {
 	/* ==== private methods ==== */
 	function getElementsByClass(object, tag, className) {
 		var o = object.getElementsByTagName(tag);
@@ -147,8 +147,8 @@ var slider = function() {
 		init : function() {
 			// create instances of sliders here
 			// parameters : HTMLcontainer name, speed (2 fast - 20 slow), Horizontal ratio, vertical text ratio, opacity
-			this.s1 = new Slider("slider", 12, 1.84/3, 1/3.2, 70);
-			setInterval("slider.s1.run();", 16);
+			this.s1 = new Slider("huadong", 12, 1.84/3, 1/3.2, 70);
+			setInterval("huadong.s1.run();", 16);
 		}
 	}
 }();
