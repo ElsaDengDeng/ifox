@@ -11,7 +11,13 @@ BODY {
 .container .container-content1 {
   letter-spacing: 3px;
 }
+.container .container-content1 .content1-word{
+  font-size: 14pt;
 
+}
+.container .container-content1 .content1-word h4{
+font-size: 16pt;
+}
 .title2{
   margin:0 auto;
   margin-top: 50px;
@@ -23,7 +29,7 @@ BODY {
   color: white;
   background-color: #39a8a9;
   border-radius: 90px 90px 90px 90px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .team {
