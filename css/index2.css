@@ -4,10 +4,18 @@ body{
   background-color: #fff !important;
   font-size: 16px;
 }
+
+.clearfix::after,.clearfix::before{
+  display: block;
+  height:0;
+  width:0;
+  clear:both;
+  overflow: hidden;
+}
 /*导航栏*/
 .navbar-default {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-width: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-width: 0;
 }
 .navbar{
   position: absolute;
@@ -71,6 +79,8 @@ body{
     font-size: 14px;
   }
 }
+
+
 /*为首页图片上的文字写动画效果*/
 .animated{
   animation-duration:1s;
@@ -117,21 +127,64 @@ body{
   -webkit-animation-delay:2s;
 }
 
-/*第一个section*/
-section.section-icon{
+/*第1个section section-message*/
+section.section-message{
+  margin-top:30px;
+}
+section .title1{
+  margin:0 auto;
+  width:180px;
+  height:60px;
+  font-size:26px;
+  text-align:center;
+  line-height:60px;
+  color:#fff;
+  background-color:#938bff;
+  border-radius:90px;
+  margin-bottom:30px;
+}
+
+section.section-message .col-lg-3{
+  height: 100%;
+  text-align: right;
+}
+section.section-message .col-lg-3 img{
+  border-radius: 50%;
+}
+section.section-message .col-lg-9 .mess-header{
+  font-size:24px;
+  padding-top:10px;
+  color:#666;
+}
+section.section-message .col-lg-9 .mess-content{
+  font-size:17px;
+  color:#777;
+  letter-spacing:2px;
+}
+// 个人基本信息 end
+/*第2个section*/
+section.section-pro{
   margin-top: 60px;
 }
-.section-icon .icon-threebox{
+.section-pro .icon-threebox{
+  border:1px solid #938bff;
   height: auto;
   text-align: center;  
+  paddding:0px;
+  height:400px;
+  overflow:hidden;
+}
+
+
+.icon-threebox .iconthreebox-img{
+  height:350px;
 }
 .icon-threebox .iconthreebox-words{
-  padding-top: 30px;
-  font-size: 25px;
+  font-size: 18px;
   color: #95a5a6;
   letter-spacing: 5px;
 }
-/*第二个section*/
+/*第3个section*/
 section.section-content{
   width: 100%;
   height: auto;
@@ -201,6 +254,22 @@ footer .content-contactus{
   color: #ccc;
   font-family: KaiTi ;
 }
+.morePro{
+  text-align:center;
+  width:300px;
+  height:50px;
+  background-color:#f44336;
+  color:#fff;
+  border-radius:5px;
+  display:block;
+  margin:auto;
+  margin-top:10px;
+}
+.morePro:hover{
+  background-color:#f44336;
+  color:#fff;
+  border:0px;
+}
 /*footer自适应*/
 @media (max-width:768px) {
   footer{
@@ -211,7 +280,7 @@ footer .content-contactus{
     height: 120px;
   }
   .threebox .threebox-img img{
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
   }
 }
